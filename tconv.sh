@@ -34,15 +34,15 @@ convert(){
 
     if !  test -f splash.txt
     then
-        echo "tconv.py: python3 program" > splash.txt
-        echo "to convert temperature" >> splash.txt
+        echo "tconv app: " > splash.txt
+        echo "convert temperatures" >> splash.txt
         echo "from celsius to fahrenheit" >> splash.txt
         echo "degrees and viceversa" >> splash.txt
     fi
     kdialog --textbox splash.txt
 while :
 do
-    kdialog --checklist "Select your choice:" \
+    kdialog --title "TCONV" --checklist "Select your choice:" \
     1 "Celsius to fahrenheit" off \
     2 "Fahrenheit to Celsius" off \
     3 "Close the app" off  > selection.txt
