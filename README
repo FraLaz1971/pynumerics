@@ -17,4 +17,5 @@ python3 tconv.py
 # or load it in IDLE or other IDE
 # and push run or follow the instructions
 # for your IDE
+# it includes a GUI script based on kdialog and bash
 
