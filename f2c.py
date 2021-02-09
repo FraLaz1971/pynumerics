@@ -15,7 +15,7 @@ def conversion(f):
     if (debug):
         print("you selected", f)
     c = 5/9*(float(f) - 32)
-    print("{:8.2f}".format(float(f)), "°F = ", "{:8.2f}".format(c) ,"°C")
+    print("{:8.2f}".format(float(f)), "F deg. = ", "{:8.2f}".format(c) ,"C deg.")
 
 
 
