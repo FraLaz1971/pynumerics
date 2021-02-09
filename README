@@ -1,9 +1,20 @@
+introductive examples to programming
+with python3. You need to use
+a python3 interpreter, some instruction
+will fail if using python2.
 
 pynumerics
 ├── c2f.py
 ├── f2c.py
 ├── README
-├── tconv.py
+├── tconv.py ---> console app performing temperature conversions
 └── test.py
 
-0 directories, 5 files
+#to use tconv.py from terminal
+./tconv.py
+#or
+python3 tconv.py
+# or load it in IDLE or other IDE
+# and push run or follow the instructions
+# for your IDE
+
